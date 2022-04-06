@@ -1,0 +1,167 @@
+.App{
+  background-color: #2F2FA2;
+  height: auto;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.header{
+  background-color: #2F2FA2;
+  padding: 20px 45px;
+  text-align: left;
+  color: #66FCF1;
+}
+
+.navigation{
+  margin-top: -50px;
+  padding: 15px;
+  text-align: right;
+  border-bottom: 1px solid #66FCF1;
+  background-color: #2F2FA2;
+}
+
+.nav-link {
+  padding: 0px 10px;
+  margin-right: 20px;
+  color: #66FCF1;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.5s;
+  transition: color 0.5s;
+}
+
+.nav-link:hover{
+  color: aliceblue;
+  border-bottom: 2px solid aliceblue;
+}
+
+.song-container{
+  margin: 40px;
+  padding: 20px;
+  background-color: #031c24;
+}
+
+.songForm {
+  padding: 10px;
+  margin: 5px;
+  width: 100%;
+  color: aliceblue;
+}
+
+.input{
+  padding: 5px;
+  min-width: 20%;
+  background-color: #2F2FA2;
+  border-color: #66FCF1;
+  color:aliceblue;
+  cursor: pointer;
+}
+
+.button-new-input{
+  padding: 7px;
+  margin: 10px;
+  border:solid 1px #66FCF1;
+  border-radius: 10px;
+  background-color: #66FCF1;
+  color:#2F2FA2;
+  font-weight: 600;
+}
+
+.button-new-input:hover{
+  background-color: aliceblue;
+  border-color: #66FCF1;
+  color: #2F2FA2;
+  cursor: pointer;
+
+}
+
+.songList{
+  list-style-type: none;
+  padding:10px;
+  width: 100%;
+}
+
+.table{
+  margin: 5px;
+  padding: 5px;
+  width: 98%;
+  border: 1px solid #2F2FA2;
+  border-collapse: collapse;
+  color: #031c24;
+  background-color: aliceblue;
+}
+
+th, td{
+  border-bottom: 1px solid #2F2FA2;
+  padding: 5px;
+  text-align: center;
+  vertical-align: middle;
+  color: #2F2FA2;
+}
+
+th{
+  height: 70px;
+  font-size: 20px;
+  background-color: #66FCF1;
+}
+
+td{
+  padding: 10px;
+  font-size: 16px;
+}
+
+tr:hover{
+  background-color: #66FCF1;
+}
+
+.table-body{
+  color: #030c00;
+}
+
+.button{
+  padding: 8px;
+  margin: 5px;
+  border:solid 1px #66FCF1;
+  border-radius: 10px;
+  background-color: #2F2FA2;
+  color: aliceblue;
+}
+
+.button:hover{
+  background-color: aliceblue;
+  color: #2F2FA2;
+  cursor: pointer;
+}
+
+.delete-button{
+  padding: 6px;
+  margin: 2px;
+  border:solid 1px #66FCF1;
+  border-radius: 10px;
+  background-color: #2F2FA2;
+  color: aliceblue;
+}
+
+.delete-button:hover{
+  background-color: red;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.footer{
+  padding: 20px 45px;
+  text-align: left;
+  color: #66FCF1;
+  border-top: 1px #66FCF1 solid;
+  min-height: 75px;
+}
+
+.main{
+  padding: 40px;
+  margin: 20px;
+  height: auto;
+  color: aliceblue;
+}
+
+
